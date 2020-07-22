@@ -6,14 +6,26 @@ function theBeatlesPlay(musician, axe){
   return newArr
 }
 
-function johnLennonFacts(facts){
+
+
+function theBeatlesPlay(player, instrument){
   let newArr = [];
-  let i = 0;
-  while(i < facts.length){
-    newArr.push(`${facts[i]}!!!`);
+  for(let i = 0; i <player.length; i++){
+    newArr.push(`${player[i]} plays ${instrument[i]}`)
   }
   return newArr;
 }
+
+function johnLennonFacts(facts){
+  let newArr = [];
+  let i = 0;
+  while(i < facts.length) {
+    newArr.push(`${facts[i]}!!!`);
+    }
+  return newArr;
+}
+
+
 
 
 
